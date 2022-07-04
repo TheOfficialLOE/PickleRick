@@ -1,14 +1,12 @@
+import PickleRickComponent from "../components/PickleRickComponent";
 
-// measures: 501 + 627
 
 const Main = () => {
     return (
-        <div>
-        <h1>Hello World</h1>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quidem, quisquam.
-        </p>
+        <div className="h-screen md:mx-5 md:py-6 grid grid-rows-2 grid-cols-1 md:grid-rows-1 md:grid-cols-2">
+            <p>I'm Pickle <br/> Rick</p>
+            <PickleRickComponent
+                className="row-span-full md:row-span-1 md:rounded-3xl my-auto h-full md:object-cover place-self-center"/>
         </div>
     );
 };
