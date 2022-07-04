@@ -1,6 +1,6 @@
-import ThumbUp from "./icons/ThumbUp";
-import Bookmark from "./icons/Bookmark";
-import Share from "./icons/Share";
+import ThumbUp from "./icons/navbar/ThumbUp";
+import Bookmark from "./icons/navbar/Bookmark";
+import Share from "./icons/navbar/Share";
 
 export default ({ className }: { className: string }) => {
     return (
