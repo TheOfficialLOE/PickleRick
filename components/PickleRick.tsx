@@ -13,8 +13,8 @@ const PickleRick = ({ className }: { className: string }) => {
     return (
         <Fragment>
             { loading && <Loading /> }
-            <Image
-                src={PickleRickGif}
+            <img
+                src="https://i.ibb.co/30pgMWf/pickle-rick-small.gif"
                 // width={1400}
                 // height={1050}
                 alt="Pickle Rick"
