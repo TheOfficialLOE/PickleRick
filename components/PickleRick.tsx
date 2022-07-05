@@ -1,9 +1,9 @@
 import { Fragment, useState } from "react";
-import PickleRickGif from "../public/pickle-rick.gif";
 import Image from 'next/image'
 import Loading from "./Loading";
+import ComponentPropType from "../util/ComponentPropType";
 
-const PickleRick = ({ className }: { className: string }) => {
+const PickleRick = ({ className }: ComponentPropType) => {
     const [loading, setLoading] = useState<boolean>(true);
 
     const loadingHandler = () => {

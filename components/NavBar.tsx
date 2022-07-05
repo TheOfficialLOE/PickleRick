@@ -1,8 +1,9 @@
 import ThumbUp from "./icons/navbar/ThumbUp";
 import Bookmark from "./icons/navbar/Bookmark";
 import Share from "./icons/navbar/Share";
+import ComponentPropType from "../util/ComponentPropType";
 
-const NavBar = ({ className }: { className: string }) => {
+const NavBar = ({ className }: ComponentPropType) => {
     return (
         <ul className={className}>
             <li className="inline-block mr-8 md:mr-16">

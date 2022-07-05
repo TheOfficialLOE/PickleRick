@@ -1,8 +1,9 @@
 import Instagram from "./icons/footer/Instagram";
 import Dribbble from "./icons/footer/Dribbble";
 import Behance from "./icons/footer/Behance";
+import ComponentPropType from "../util/ComponentPropType";
 
-const Footer = ({ className }: { className: string }) => {
+const Footer = ({ className }: ComponentPropType) => {
     return (
         <ul className={className}>
             <li className="inline-block mr-6">
