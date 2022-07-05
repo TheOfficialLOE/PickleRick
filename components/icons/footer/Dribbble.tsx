@@ -1,4 +1,4 @@
-export default () => {
+const Dribbble = () => {
     return (
         <svg className="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 1000 1000">
             <path
@@ -6,3 +6,5 @@ export default () => {
         </svg>
     )
 };
+
+export default Dribbble;

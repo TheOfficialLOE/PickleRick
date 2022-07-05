@@ -1,5 +1,4 @@
-
-export default () => {
+const Instagram = () => {
     return (
         <svg className="w-6 h-6 md:w-8 md:h-8" viewBox="0 0 256 256" version="1.1" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid">
             <g>
@@ -8,3 +7,5 @@ export default () => {
         </svg>
     )
 }
+
+export default Instagram;

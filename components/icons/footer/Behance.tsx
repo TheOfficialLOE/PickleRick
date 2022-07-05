@@ -1,4 +1,4 @@
-export default () => {
+const Behance = () => {
     return (
         <svg className="w-6 h-6 md:w-8 md:h-8" viewBox="0.5 94.187 511 323.626">
             <path
@@ -6,3 +6,5 @@ export default () => {
         </svg>
     )
 };
+
+export default Behance;

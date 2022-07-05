@@ -2,7 +2,7 @@ import ThumbUp from "./icons/navbar/ThumbUp";
 import Bookmark from "./icons/navbar/Bookmark";
 import Share from "./icons/navbar/Share";
 
-export default ({ className }: { className: string }) => {
+const NavBar = ({ className }: { className: string }) => {
     return (
         <ul className={className}>
             <li className="inline-block mr-8 md:mr-16">
@@ -17,3 +17,5 @@ export default ({ className }: { className: string }) => {
         </ul>
     )
 };
+
+export default NavBar;

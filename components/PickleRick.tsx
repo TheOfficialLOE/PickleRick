@@ -1,12 +1,14 @@
 import Image from 'next/image'
-import PickleRick from "../public/pickle-rick.gif";
+import PickleRickGif from "../public/pickle-rick.gif";
 
-export default ({ className }: { className: string }) => {
+const PickleRick = ({ className }: { className: string }) => {
     return (
         <Image
-            src={PickleRick}
+            src={PickleRickGif}
             alt="Pickle Rick"
             className={className}
         />
     );
 };
+
+export default PickleRick;

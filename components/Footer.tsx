@@ -2,7 +2,7 @@ import Instagram from "./icons/footer/Instagram";
 import Dribbble from "./icons/footer/Dribbble";
 import Behance from "./icons/footer/Behance";
 
-export default ({ className }: { className: string }) => {
+const Footer = ({ className }: { className: string }) => {
     return (
         <ul className={className}>
             <li className="inline-block mr-6">
@@ -23,3 +23,5 @@ export default ({ className }: { className: string }) => {
         </ul>
     )
 };
+
+export default Footer;
