@@ -5,9 +5,8 @@ import Loading from "./Loading";
 
 const PickleRick = ({ className }: { className: string }) => {
     const [loading, setLoading] = useState<boolean>(true);
-    console.log(loading)
+
     const loadingHandler = () => {
-        console.log("loaded")
         setLoading(false);
     }
 
@@ -15,9 +14,10 @@ const PickleRick = ({ className }: { className: string }) => {
         <Fragment>
             { loading && <Loading /> }
             <Image
-                src={PickleRickGif}
-                // width={1400}
-                // height={1050}
+                src="https://i.ibb.co/30pgMWf/pickle-rick-small.gif"
+                loader={() => "https://i.ibb.co/30pgMWf/pickle-rick-small.gif"}
+                width={1400}
+                height={1050}
                 alt="Pickle Rick"
                 className={className}
                 onLoad={loadingHandler}
