@@ -1,5 +1,5 @@
 import { Fragment, useState } from "react";
-import PickleRickGif from "../assets/pickle-rick.gif";
+import PickleRickGif from "../public/pickle-rick.gif";
 import Image from 'next/image'
 import Loading from "./Loading";
 
