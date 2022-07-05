@@ -6,17 +6,17 @@ const Footer = ({ className }: { className: string }) => {
     return (
         <ul className={className}>
             <li className="inline-block mr-6">
-                <a href="http://instagram.com/kostyastupar" target="_blank">
+                <a href="http://instagram.com/kostyastupar" target="_blank" rel="noreferrer">
                     <Instagram />
                 </a>
             </li>
             <li className="inline-block mr-6">
-                <a href="https://www.behance.net/k1ngcreative" target="_blank">
+                <a href="https://www.behance.net/k1ngcreative" target="_blank" rel="noreferrer">
                     <Dribbble />
                 </a>
             </li>
             <li className="inline-block mr-6">
-                <a href="https://www.behance.net/k1ngcreative" target="_blank">
+                <a href="https://www.behance.net/k1ngcreative" target="_blank" rel="noreferrer">
                     <Behance />
                 </a>
             </li>
