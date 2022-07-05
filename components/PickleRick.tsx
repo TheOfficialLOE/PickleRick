@@ -1,6 +1,5 @@
 import { Fragment, useState } from "react";
 import Image from 'next/image'
-import PickleRickGif from "../public/pickle-rick.gif";
 import Loading from "./Loading";
 
 const PickleRick = ({ className }: { className: string }) => {
@@ -14,7 +13,9 @@ const PickleRick = ({ className }: { className: string }) => {
         <Fragment>
             { loading && <Loading /> }
             <Image
-                src={PickleRickGif}
+                src="https://i.ibb.co/30pgMWf/pickle-rick-small.gif"
+                width={1400}
+                height={1050}
                 alt="Pickle Rick"
                 className={className}
                 onLoad={loadingHandler}
