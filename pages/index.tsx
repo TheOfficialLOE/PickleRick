@@ -12,7 +12,7 @@ const Main = () => {
                 <Footer className="ml-12"/>
             </div>
             <PickleRick
-                className="row-[1] my-auto h-full md:rounded-3xl md:object-cover place-self-center"/>
+                className="row-[1] my-auto h-full place-self-center md:rounded-3xl object-cover"/>
         </div>
     );
 };
