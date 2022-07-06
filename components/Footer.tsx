@@ -12,7 +12,7 @@ const Footer = ({ className }: ComponentPropType) => {
                 </a>
             </li>
             <li className="inline-block mr-6">
-                <a href="https://www.behance.net/k1ngcreative" target="_blank" rel="noreferrer">
+                <a href="https://dribbble.com/shots/15207563-I-m-Pickle-Rick" target="_blank" rel="noreferrer">
                     <Dribbble />
                 </a>
             </li>
