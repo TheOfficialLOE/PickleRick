@@ -2,7 +2,7 @@ Inspired by https://www.behance.net/gallery/92942785/Im-Pickle-Rick
 
 Just wanted to give NextJs a try.
 
-[Try it!](https://im-pickle-rick.netlify.app/)
+[Try it!](https://im-pickle-rick.netlify.app/) (YEs YoURe GoNNa NeEd VpN)
 
 ## Getting Started
 
